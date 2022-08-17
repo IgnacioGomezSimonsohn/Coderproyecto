@@ -1,0 +1,67 @@
+
+
+.formContacto{
+    text-decoration: none;
+    background-color:#d8f3dc;
+    border: solid 5px black;
+    margin-left: 29%;
+    margin-right: 22%;
+    margin-top: 4vh;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+text{
+     margin-left: 80vh;
+     margin-right: 10vh;
+}
+textarea{
+    height: 15vh;
+    width: 50vh;
+    margin-left: 0%;
+    margin-right: 99%;
+}
+
+.divsContacto{
+    display: flex;
+    justify-content:left;
+    
+}
+
+.boton{
+    width: 20vh;
+    height: 7vh;
+    background-color:#74c69d
+}
+
+@media screen and (max-width: 768px){
+    .formContacto{
+        margin-left: 5%;
+        margin-right: 22%;
+        margin-top: 4vh; 
+        font-size: 2vh;
+        font-weight: 200;
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .input{
+        width: 50px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    textarea{
+        width: 300px;
+    }
+
+}

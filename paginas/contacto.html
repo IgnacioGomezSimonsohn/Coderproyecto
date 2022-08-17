@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos3.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cb97a47c4c.js" crossorigin="anonymous"></script>     
+    <title>Contacto </title>
+</head>
+<body>
+    <header> 
+        <nav class="navbar navbar-dark bg-success p-2 bg-success p-2 text-dark bg-opacity-50">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="../index.html">My Boots</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end text-bg-success p-2" style="--bs-bg-opacity: .5;"
+                tabindex="-1"
+                id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel"
+              >
+                <div class="offcanvas-header ">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                    My Boots
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../paginas/botines.html">Botines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../paginas/remeras.html">Remeras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../paginas/accesorios.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+                    </li>   
+                </div>
+              </div>
+            </div>
+          </nav> 
+
+    </header>
+    <h1 class="animate__animated animate__bounce"> Formulario de contacto <i class="fa-solid fa-address-card"></i></h1>
+    
+    <form action=""class="formContacto">
+        
+        <div class="divsContacto">
+            
+            <label class="me-4"><i class="fa-solid fa-person"></i> Ingrese su nombre</label>
+            <input type="text" placeholder="Jose" required>
+        </div>
+
+        <div class="divsContacto">
+            <label class="me-4"><i class="fa-solid fa-person"></i>Ingrese su apellido</label>  
+            <input type="text" placeholder="Hernandez" required>
+        </div>
+
+        <div class="divsContacto">
+            <label class="me-4"><i class="fa-regular fa-envelope"></i> Ingrese su Email</label>
+            <input type="email" placeholder="emaildeejemplo@gmail.com" required> 
+        </div>
+
+        <div class="divsContacto">
+            <label class="me-4">Seleccione sobre que es su consulta</label>
+            <select name="Articulos">
+            <option value="Botines">Botines</option>
+            <option value="Remeras">Remeras</option>
+            <option value="Accesorios">Accesorios</option>
+            <option value="Otro">Otro</option>
+            </select>
+        </div>
+
+      
+
+        <div class="divsContacto">
+            <label class="me-4">Desea recibir ofertas y otras noticias por email?</label>
+            <input type="checkbox" class="checkbox">
+
+
+        </div>
+
+        <div class="divsContacto">
+            <label>Escriba aquí su consulta</label>
+        </div>
+        <div>
+            <textarea name="mensaje"></textarea required>
+        </div>
+
+        <div>
+            <input type="submit" class="boton"> 
+            <input type="reset" value="Borrar datos" class="boton" >
+
+        </div>
+        
+    </form>
+    <footer class="footer  bg-success p-2" style="--bs-bg-opacity: .5;"> 
+        
+        <a class="a" href="https://www.instagram.com/my_boots10/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a> 
+       <h6>Todos los derechos reservados</h6>
+   </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

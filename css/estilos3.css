@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,300&display=swap");
+header {
+  position: sticky;
+  margin-bottom: 5vh;
+  top: 0vh; }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%; } }
+
+body {
+  background-color: whitesmoke; }
+
+.footer {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 76vh;
+  color: #064775;
+  background-color: #d8f3dc; }
+
+.paginas {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bolder;
+  width: 100%;
+  font-size: 5vh;
+  font-weight: 600;
+  word-spacing: 20vh;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  color: #064775;
+  background-color: #d8f3dc;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+@media screen and (max-width: 768px) {
+  .paginas {
+    display: flex;
+    flex-direction: column; } }
+
+.ImgInicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  .imgInicio2 {
+    width: 25vh;
+    height: 15vh;
+    margin-top: 5000px; } }
+
+.formContacto {
+  text-decoration: none;
+  background-color: #d8f3dc;
+  border: solid 5px black;
+  margin-left: 29%;
+  margin-right: 22%;
+  margin-top: 4vh;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 50px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+text {
+  margin-left: 80vh;
+  margin-right: 10vh; }
+
+textarea {
+  height: 15vh;
+  width: 50vh;
+  margin-left: 0%;
+  margin-right: 99%; }
+
+.divsContacto {
+  display: flex;
+  justify-content: left; }
+
+.boton {
+  width: 20vh;
+  height: 7vh;
+  background-color: #74c69d; }
+
+@media screen and (max-width: 768px) {
+  .formContacto {
+    margin-left: 5%;
+    margin-right: 22%;
+    margin-top: 4vh;
+    font-size: 2vh;
+    font-weight: 200;
+    padding: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .input {
+    width: 50px; } }
+
+@media screen and (max-width: 768px) {
+  textarea {
+    width: 300px; } }
+
+/* FOTOS DE LOS BOTINES */
+.FotosBotines {
+  margin-left: 30vh;
+  margin-right: 5vh;
+  margin-top: 5vh;
+  font-size: 50px;
+  font-weight: 250px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: left; }
+
+@media screen and (max-width: 768px) {
+  .FotosBotines {
+    margin-left: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between; } }
+
+@media screen and (max-width: 768px) {
+  .FotosBotines2 {
+    width: 25vh;
+    height: 20vh; } }
+
+/*FOTOS DE LAS REMERAS */
+.fotosRemeras {
+  margin-left: 30vh;
+  margin-top: 5vh;
+  margin-right: 5vh;
+  font-size: 1.7vh;
+  font-weight: 250;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
+  column-gap: 0.5vh;
+  grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+  row-gap: 3vh;
+  justify-items: center;
+  justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  .fotosRemeras {
+    margin-left: 25vh;
+    margin-top: 5vh;
+    margin-right: 25vh;
+    display: grid;
+    grid-template-columns: 27vh;
+    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+    row-gap: 3vh;
+    justify-items: center;
+    justify-content: center; } }
+
+/*FOTOS DE LAS Accesorios */
+.fotosAccesorios {
+  margin-left: 30vh;
+  margin-top: 5vh;
+  margin-right: 5vh;
+  font-size: 1.7vh;
+  font-weight: 250;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
+  column-gap: 1vh;
+  grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+  row-gap: 5vh;
+  justify-items: center;
+  justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  .fotosAccesorios {
+    margin-left: 25vh;
+    margin-top: 5vh;
+    margin-right: 25vh;
+    display: grid;
+    grid-template-columns: 27vh;
+    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+    row-gap: 3vh;
+    justify-items: center;
+    justify-content: center; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* TABLA DE TALLES */
+table {
+  color: #064775;
+  border-radius: 10px;
+  font-size: larger;
+  align-content: center;
+  border-color: #40916c;
+  margin-left: 45%;
+  margin-top: 2vh; }
+
+@media screen and (max-width: 768px) {
+  table {
+    margin-right: 50%;
+    margin-left: 30%; } }
+
+h1 {
+  margin-top: 10vh;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 5vh;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #064775; }
+
+h6 {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #064775; }
+
+h5 {
+  margin-top: 2vh;
+  font-size: 3vh;
+  margin-right: 5vh; }
+
+.txtCata {
+  font-size: 2.2vh;
+  font-weight: bolder;
+  margin-left: 3px; }
+
+/* ETIQUETAS VARIAS */
+a {
+  text-decoration: none;
+  color: #064775; }
+
+.a {
+  text-decoration: none;
+  color: #064775; }
