@@ -3,29 +3,32 @@
 /* FOTOS DE LOS BOTINES */
 .FotosBotines{
     margin-left: 30vh;
-    margin-right: 5vh;
     margin-top: 5vh;
-    font-size: 50px;
-    font-weight: 250px;
+    margin-right: 5vh;
+    font-size: 1.7vh;
+    font-weight: 250;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap ;
-    justify-content:center;
-    
-    align-content: left;  
+    display: grid;
+    grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
+    column-gap: 0.5vh;
+    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+    row-gap: 3vh;
+    justify-items:center;
+    justify-content: center;
     
 }
 
 @media screen and (max-width: 768px) {
     .FotosBotines {
-           margin-left: 15vh;
-           display: flex;
-           flex-direction: column;
-           flex-wrap: wrap;
-           justify-content:space-between;
-           align-items:flex-start;
-           align-content: space-between; 
+        margin-left: 25vh;
+        margin-top: 5vh;
+        margin-right: 25vh;
+        display: grid;
+        grid-template-columns: 27vh;
+        grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+        row-gap: 3vh;
+        justify-items:center;
+        justify-content: center;
            
       }
     }
