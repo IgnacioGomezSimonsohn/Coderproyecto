@@ -1,10 +1,13 @@
 
+@import"variables.scss";
+@import "mixins.scss";
+
 
 /* FOTOS DE LOS BOTINES */
 .FotosBotines{
-    margin-left: 30vh;
-    margin-top: 5vh;
-    margin-right: 5vh;
+    margin-left: map-get($margenes , izquierda );
+    margin-top: map-get($margenes , arrbia );
+    margin-right: map-get($margenes , derecha );
     font-size: 1.7vh;
     font-weight: 250;
     font-family: 'Roboto', sans-serif;
@@ -52,19 +55,7 @@
 
 /*FOTOS DE LAS REMERAS */    
 .fotosRemeras{
-    margin-left: 30vh;
-    margin-top: 5vh;
-    margin-right: 5vh;
-    font-size: 1.7vh;
-    font-weight: 250;
-    font-family: 'Roboto', sans-serif;
-    display: grid;
-    grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
-    column-gap: 0.5vh;
-    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
-    row-gap: 3vh;
-    justify-items:center;
-    justify-content: center;
+    @extend .FotosBotines;
     
 }
 
@@ -89,19 +80,7 @@
 
 /*FOTOS DE LAS Accesorios */    
 .fotosAccesorios{
-    margin-left: 30vh;
-    margin-top: 5vh;
-    margin-right: 5vh;
-    font-size: 1.7vh;
-    font-weight: 250;
-    font-family: 'Roboto', sans-serif;
-    display: grid;
-    grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
-    column-gap: 1vh;
-    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
-    row-gap: 5vh;
-    justify-items:center;
-    justify-content: center;
+    @include imgCatalogo ;
     
 }
 

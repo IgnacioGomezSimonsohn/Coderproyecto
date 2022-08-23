@@ -116,7 +116,7 @@ textarea {
     width: 300px; } }
 
 /* FOTOS DE LOS BOTINES */
-.FotosBotines {
+.FotosBotines, .fotosRemeras {
   margin-left: 30vh;
   margin-top: 5vh;
   margin-right: 5vh;
@@ -132,7 +132,7 @@ textarea {
   justify-content: center; }
 
 @media screen and (max-width: 768px) {
-  .FotosBotines {
+  .FotosBotines, .fotosRemeras {
     margin-left: 25vh;
     margin-top: 5vh;
     margin-right: 25vh;
@@ -149,21 +149,6 @@ textarea {
     height: 20vh; } }
 
 /*FOTOS DE LAS REMERAS */
-.fotosRemeras {
-  margin-left: 30vh;
-  margin-top: 5vh;
-  margin-right: 5vh;
-  font-size: 1.7vh;
-  font-weight: 250;
-  font-family: 'Roboto', sans-serif;
-  display: grid;
-  grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
-  column-gap: 0.5vh;
-  grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
-  row-gap: 3vh;
-  justify-items: center;
-  justify-content: center; }
-
 @media screen and (max-width: 768px) {
   .fotosRemeras {
     margin-left: 25vh;
@@ -178,17 +163,13 @@ textarea {
 
 /*FOTOS DE LAS Accesorios */
 .fotosAccesorios {
-  margin-left: 30vh;
+  margin-left: 25vh;
   margin-top: 5vh;
-  margin-right: 5vh;
-  font-size: 1.7vh;
-  font-weight: 250;
-  font-family: 'Roboto', sans-serif;
+  margin-right: 25vh;
   display: grid;
   grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
-  column-gap: 1vh;
   grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
-  row-gap: 5vh;
+  row-gap: 0.5vh;
   justify-items: center;
   justify-content: center; }
 
