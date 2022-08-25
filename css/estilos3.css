@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,300&display=swap");
 header {
-  position: sticky;
   margin-bottom: 5vh;
   top: 0vh; }
 
@@ -117,9 +116,9 @@ textarea {
 
 /* FOTOS DE LOS BOTINES */
 .FotosBotines, .fotosRemeras {
-  margin-left: 30vh;
+  margin-left: 25vh;
   margin-top: 5vh;
-  margin-right: 5vh;
+  margin-right: 20vh;
   font-size: 1.7vh;
   font-weight: 250;
   font-family: 'Roboto', sans-serif;
@@ -163,9 +162,9 @@ textarea {
 
 /*FOTOS DE LAS Accesorios */
 .fotosAccesorios {
-  margin-left: 25vh;
+  margin-left: 10vh;
   margin-top: 5vh;
-  margin-right: 25vh;
+  margin-right: 40vh;
   display: grid;
   grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
   grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
@@ -188,21 +187,6 @@ textarea {
 * {
   margin: 0;
   padding: 0; }
-
-/* TABLA DE TALLES */
-table {
-  color: #064775;
-  border-radius: 10px;
-  font-size: larger;
-  align-content: center;
-  border-color: #40916c;
-  margin-left: 45%;
-  margin-top: 2vh; }
-
-@media screen and (max-width: 768px) {
-  table {
-    margin-right: 50%;
-    margin-left: 30%; } }
 
 h1 {
   margin-top: 10vh;

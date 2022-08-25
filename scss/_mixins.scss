@@ -1,10 +1,10 @@
 @mixin imgCatalogo {
-    margin-left: 25vh;
+    margin-left: 10vh;
     margin-top: 5vh;
-    margin-right: 25vh;
+    margin-right: 40vh;
     display: grid;
     grid-template-columns: 27vh 27vh 27vh 27vh 27vh;
-    grid-template-rows: 27vh 27vh 27vh 27vh 27vh;
+    grid-template-rows: 27vh 27vh 27vh 27vh 27vh ;
     row-gap: 0.5vh;
     justify-items:center;
     justify-content: center;
