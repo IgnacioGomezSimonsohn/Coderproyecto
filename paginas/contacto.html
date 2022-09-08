@@ -63,57 +63,28 @@
     </header>
     <h1 class="animate__animated animate__bounce"> Formulario de contacto <i class="fa-solid fa-address-card"></i></h1>
     
-    <form action=""class="formContacto">
+    <form class="container-sm">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email"  class="form-control" id="exampleInputEmail1" placeholder="EmailDeEjemplo@gmail.com" aria-describedby="emailHelp">
         
-        <div class="divsContacto">
-            
-            <label class="me-4"><i class="fa-solid fa-person"></i> Ingrese su nombre</label>
-            <input type="text" placeholder="Jose" required>
-        </div>
-
-        <div class="divsContacto">
-            <label class="me-4"><i class="fa-solid fa-person"></i>Ingrese su apellido</label>  
-            <input type="text" placeholder="Hernandez" required>
-        </div>
-
-        <div class="divsContacto">
-            <label class="me-4"><i class="fa-regular fa-envelope"></i> Ingrese su Email</label>
-            <input type="email" placeholder="emaildeejemplo@gmail.com" required> 
-        </div>
-
-        <div class="divsContacto">
-            <label class="me-4">Seleccione sobre que es su consulta</label>
-            <select name="Articulos">
-            <option value="Botines">Botines</option>
-            <option value="Remeras">Remeras</option>
-            <option value="Accesorios">Accesorios</option>
-            <option value="Otro">Otro</option>
-            </select>
-        </div>
-
-      
-
-        <div class="divsContacto">
-            <label class="me-4">Desea recibir ofertas y otras noticias por email?</label>
-            <input type="checkbox" class="checkbox">
-
-
-        </div>
-
-        <div class="divsContacto">
-            <label>Escriba aquí su consulta</label>
-        </div>
-        <div>
-            <textarea name="mensaje"></textarea required>
-        </div>
-
-        <div>
-            <input type="submit" class="boton"> 
-            <input type="reset" value="Borrar datos" class="boton" >
-
-        </div>
-        
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Nombre y Apellido</label>
+        <input type="password" placeholder="Nombre Apellido" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">¿Desea recibir notificaciones por email?</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comentarios / Sugerencias / Dudas</label>
+      </div>
+      <button type="submit" class="btn btn-success bg-success p-2 bg-success p-2 mb-3 ">Enviar</button>
     </form>
+
+
     <footer class="footer  bg-success p-2" style="--bs-bg-opacity: .5;"> 
         
         <a class="a" href="https://www.instagram.com/my_boots10/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a> 

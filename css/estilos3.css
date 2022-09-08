@@ -78,6 +78,9 @@ body {
   flex-direction: column;
   justify-content: center; }
 
+form {
+  background-image: linear-gradient(to left top, #40916c, #57a27f, #6eb493, #84c6a7, #9bd8bc); }
+
 text {
   margin-left: 80vh;
   margin-right: 10vh; }
